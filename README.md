@@ -4,7 +4,39 @@ Data Type/Control Flow Application Lab
 Today we will be practicing if statements, switch statements, and practicing our getters/setters in Java by designing an automated coffee shop order system.
 
 # Step 1: Setting the coffee information - the coffee constructor Coffee(char size, int type, String\[] syrups)
-The first thing we need to make for our Coffee class is the Coffee constructor. To make the constructor, find `Coffee(char size, int type, String\[] syrups)`. Set the class variables size, type, and syrups to the appropriate information. To do this, use a switch statement to set the variables size. Size will either be 's', which should set the class variable size to "small", 'm', which should set the class variable size to "medium", or 'l', which should set the class variable size to "large". Your default size should be "medium". Type will be completed for you as a reference for writing switch statements. Syrups will also be written for you, as it uses Arrays, which must be initialized in a special way. Read over the code to make sure you understand it for future labs.
+The first thing we need to make for our Coffee class is the Coffee constructor. To make the constructor, find `Coffee(char size, int type, String\[] syrups)`. Set the class variables size, type, and syrups to the appropriate information. To do this, use a switch statement to set the variables size.
+
+Here is an example of a switch statement:
+ ```java
+   switch (x){
+            case(3):
+                System.out.println("Number Three!");
+                break;
+            case(6):
+               System.out.println("Number Six!");
+               break;
+            default:
+                System.out.println("A Number!");
+                break;
+        } 
+```
+ 
+Size will either be: 
+ ```
+'s', which should set the class variable size to "small"
+'m', which should set the class variable size to "medium"
+'l', which should set the class variable size to "large"
+Your default size should be "medium"
+ ``` 
+Type will either be:
+ ```
+ 1, which should set the class variable type to "iced"
+ 2, which should set the class variable type to "blended"
+ 3, which should set the class variable type to "hot"
+ Your default type should be "hot"
+  ```
+
+Syrups will be written for you, as it uses Arrays, which must be initialized in a special way. Read over the code to make sure you understand it for future labs.
 
    Ex: 
    ```java
@@ -32,7 +64,7 @@ For these functions:
    System.out.println("TESTING GET SIZE: " + myOrder.getSize()); // should return "medium"
 ```
 # Step 3: Calculating the Order Price -- calculatePrice()
-Things like size, type of drink, and syrups can have an effect on the total price of a coffee order. For the   `calculatePrice() ` method, use if statements to make the following checks:
+Things like size, type of drink, and syrups can have an effect on the total price of a coffee order. For the   `calculatePrice() ` method, use either switch or if statements to make the following checks:
 
  ```
  1. If the size is small, the base price is 3.0. 
