@@ -21,7 +21,7 @@ For these functions:
 3. Make getSyrups() return the list of syrups
 4. Make setSize(String siz) set the class variable size to siz (this will not return anything)
 5. Make setType(String typ) set the class variable type to typ (this will not return anything)
-6. Make setSyrups(String[] syrup) set the class variable syrups to syrup (this will not return anything)
+6. For this function we will NOT Make setSyrups(String[] syrup) set the class variable syrups to syrup (this will not return anything)
 ```
 
   Ex: 
