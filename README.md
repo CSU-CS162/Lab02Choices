@@ -4,7 +4,7 @@ Data Type/Control Flow Application Lab
 Today we will be practicing if statements, switch statements, and practicing our getters/setters in Java by designing an automated coffee shop order system.
 
 # Step 1: Setting the coffee information - the coffee constructor Coffee(char size, int type, String\[] syrups)
-The first thing we need to make for our Coffee class is the Coffee constructor. To make the constructor, find `Coffee(char size, int type, String\[] syrups)`. Set the class variables size, type, and syrups to the appropriate information. To do this, use a switch statement to set the variables size. Size will either be 's', which should set the class variable size to "small", 'm', which should set the class variable size to "medium", or 'l', which should set the class variable size to "large". Your default size should be "medium". Type will be completed for you as a reference for writing switch statements. Finally, initialize the class variable syrups to the syrups parameter.
+The first thing we need to make for our Coffee class is the Coffee constructor. To make the constructor, find `Coffee(char size, int type, String\[] syrups)`. Set the class variables size, type, and syrups to the appropriate information. To do this, use a switch statement to set the variables size. Size will either be 's', which should set the class variable size to "small", 'm', which should set the class variable size to "medium", or 'l', which should set the class variable size to "large". Your default size should be "medium". Type will be completed for you as a reference for writing switch statements. Syrups will also be written for you, as it uses Arrays, which must be initialized in a special way. Read over the code to make sure you understand it for future labs.
 
    Ex: 
    ```java
@@ -21,7 +21,7 @@ For these functions:
 3. Make getSyrups() return the list of syrups
 4. Make setSize(String siz) set the class variable size to siz (this will not return anything)
 5. Make setType(String typ) set the class variable type to typ (this will not return anything)
-6. For this function we will NOT Make setSyrups(String[] syrup) set the class variable syrups to syrup (this will not return anything)
+6. setSyrups(String[] syrup) will be written for you, as Arrays have special behavior.
 ```
 
   Ex: 
