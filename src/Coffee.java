@@ -5,7 +5,7 @@ public class Coffee {
 
     public Coffee(char size, int type, String[] syrups){
         //TODO STUDENT CODE
-        //This is where you will bit your switch statements for size and type
+        //This is where you will put your switch statements for size and type
       
          //provided
         this.syrups = new String[syrups.length];
@@ -55,7 +55,7 @@ public class Coffee {
         double price = 0.0;
         //student code--your if statements should go here
 
-        for (int i = 0; i < syrups.length; i++) {
+        for (String syrup : syrups) {
             //TODO STUDENT CODE
         }
         return price;
