@@ -29,7 +29,7 @@ public class Coffee {
    //this function returns the syrups in the drink
     public String[] getSyrups(){
       //student code
-        return [];
+        return null;
     }
 
    //this function sets the type of the drink
