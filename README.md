@@ -4,7 +4,7 @@ Data Type/Control Flow Application Lab
 Today we will be practicing if statements, switch statements, and practicing our getters/setters in Java by designing an automated coffee shop order system.
 
 # Step 1: Setting the coffee information - the coffee constructor Coffee(char size, int type, String\[] syrups)
-The first thing we need to make for our Coffee class is the Coffee constructor. To make the constructor, find `Coffee(char size, int type, String\[] syrups)`. Set the class variables size, type, and syrups to the appropriate information. To do this, use a switch statement to set the variables size.
+The first thing we need to make for our Coffee class is the Coffee constructor. To make the constructor, find `Coffee(char size, int type, String[] syrups)`. Set the class variables size, type, and syrups to the appropriate information. To do this, use a switch statement to set the variables size.
 
 Here is an example of a switch statement:
  ```java
