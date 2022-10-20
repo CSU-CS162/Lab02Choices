@@ -1,7 +1,7 @@
 public class Coffee {
     String[] syrups;
     String size;
-    String type;
+    String typeVal;
 
     public Coffee(char size, int type, String[] syrups){
         //TODO STUDENT CODE
