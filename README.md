@@ -25,7 +25,8 @@ Syrups will be written for you, as it uses Arrays, which must be initialized in 
 
    Ex: 
    ```java
-   Coffee myOrder = new Coffee('s', 1, ["caramel", "chocolate"]);
+   String[] tem = {"caramel", "chocolate"};
+   Coffee myOrder = new Coffee('s', 1, tem);
    System.out.println("TESTING CONSTRUCTOR SIZE: " + myOrder.size); // should return "small" 
 ```
 # Step 2: Getters and Setters -- getSize(), getType(), getSyrups(), setSize(String siz), setType(String typ), setSyrups(String\[] syrup)
@@ -43,7 +44,8 @@ For these functions:
 
   Ex: 
   ```java
-  Coffee myOrder = new Coffee('s', 1, ["caramel", "chocolate"]);
+  String[] temp = {"caramel", "chocolate"};
+  Coffee myOrder = new Coffee('s', 1, temp);
    System.out.println("TESTING CONSTRUCTOR SIZE: " + myOrder.getSize()); // should return "small" 
    myOrder.setSize("medium");
    System.out.println("TESTING GET SIZE: " + myOrder.getSize()); // should return "medium"
@@ -61,8 +63,10 @@ Things like size, type of drink, and syrups can have an effect on the total pric
 
   Ex: 
   ```java
-  Coffee order1 = new Coffee('s', 1, ["caramel", "chocolate"]);
-  Coffee order2 = new Coffee('m', 2, ["chocolate", "mint", "lavender"]);
+  String[] temp1 = {"caramel", "chocolate"};
+  String[] temp2 = {"chocolate", "mint", "lavender"};
+  Coffee order1 = new Coffee('s', 1, temp1);
+  Coffee order2 = new Coffee('m', 2, temp2);
   System.out.println("TESTING PRICE: " + order1.calculatePrice()); // This should return 3.0
   System.out.println("TESTING PRICE: " + order2.calculatePrice()); // This should return 5.5
 ```
