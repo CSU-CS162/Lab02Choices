@@ -74,3 +74,37 @@ Things like size, type of drink, and syrups can have an effect on the total pric
 
 # Step 4: Turn It In!
   Turn it in to submit mode on Zybooks
+
+#Reminder: Switch Cases
+There are some times when the only thing your if statement is checking is the value of a single variable. In these cases, it is easier to use a *switch statement*. All cases in a switch statement should be terminated by a break, or they will walk through into the next case without checking for correctness until they reach a break statement.
+
+Example:
+```
+switch(i) {
+            case(0):
+                System.out.println("Zero");
+                break;
+            case(1):
+                System.out.println("One");
+            case(2):
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Number");
+            
+        }
+  ```
+  For i = 1, the print would be:
+  ```
+  One
+  Two
+  ```
+  While i = 0 would print:
+  ```
+  Zero
+  ```
+  i = 17 would print:
+  ```
+  Number
+  ```
+  because there is no case for 17, so it goes to the default.
